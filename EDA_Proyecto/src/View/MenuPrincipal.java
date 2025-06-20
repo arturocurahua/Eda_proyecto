@@ -110,6 +110,9 @@ public class MenuPrincipal extends javax.swing.JFrame {
         modelo_tabla.addColumn("Identificador");
         modelo_tabla.addColumn("Prioridad");
         modelo_tabla.addColumn("DNI");
+        modelo_tabla.addColumn("Nombre");
+        modelo_tabla.addColumn("Telefono");
+        modelo_tabla.addColumn("Correo");
         modelo_tabla.addColumn("Asunto");
         modelo_tabla.addColumn("Documento");
         

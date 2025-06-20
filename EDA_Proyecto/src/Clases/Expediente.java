@@ -8,17 +8,16 @@ package Clases;
  *
  * @author Arturo
  */
-public class Expediente {
+public class Expediente extends Datos{
     private String identificador;
     private int prioridad;
-    private String dni;
     private String asunto;
     private String documento;
 
-    public Expediente(String identificador, int prioridad, String dni, String asunto, String documento) {
+    public Expediente(String identificador, int prioridad, String asunto, String documento, String dni, String nombre, String telefono, String email) {
+        super(dni, nombre, telefono, email);
         this.identificador = identificador;
         this.prioridad = prioridad;
-        this.dni = dni;
         this.asunto = asunto;
         this.documento = documento;
     }
@@ -39,14 +38,6 @@ public class Expediente {
         this.prioridad = prioridad;
     }
 
-    public String getDni() {
-        return dni;
-    }
-
-    public void setDni(String dni) {
-        this.dni = dni;
-    }
-
     public String getAsunto() {
         return asunto;
     }
@@ -64,7 +55,7 @@ public class Expediente {
     }
     
     
-    
+
     
     
     
