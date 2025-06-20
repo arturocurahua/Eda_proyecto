@@ -7,7 +7,10 @@ package Clases;
 /**
  *
  * @author Arturo
+
+ Creación de la clase Datos
  */
+
 public class Datos {
     private String dni;
     private String nombre;
